@@ -29,9 +29,9 @@ import './shop-products.js';
 import './shop-cart.js';
 
 // These are the shared styles needed by this element.
-import { SharedStyles } from './shared-styles.js';
-import { ButtonSharedStyles } from './button-shared-styles.js';
-import { addToCartIcon } from './my-icons.js';
+import { SharedStyles } from './styles/shared-styles.js';
+import { ButtonSharedStyles } from './styles/button-shared-styles.js';
+import { addToCartIcon } from './style/my-icons.js';
 
 class MyView3 extends connect(store)(PageViewElement) {
   render() {

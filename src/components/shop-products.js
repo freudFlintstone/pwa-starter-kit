@@ -21,10 +21,10 @@ import './shop-item.js';
 import { getAllProducts, addToCart } from '../actions/shop.js';
 
 // These are the elements needed by this element.
-import { addToCartIcon } from './my-icons.js';
+import { addToCartIcon } from './style/my-icons.js';
 
 // These are the shared styles needed by this element.
-import { ButtonSharedStyles } from './button-shared-styles.js';
+import { ButtonSharedStyles } from './styles/button-shared-styles.js';
 
 class ShopProducts extends connect(store)(LitElement) {
   render() {

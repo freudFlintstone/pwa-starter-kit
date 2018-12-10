@@ -15,7 +15,7 @@ import { connect } from 'pwa-helpers/connect-mixin.js';
 import { store } from '../store.js';
 
 // These are the elements needed by this element.
-import { removeFromCartIcon } from './my-icons.js';
+import { removeFromCartIcon } from './style/my-icons.js';
 import './shop-item.js';
 
 // These are the actions needed by this element.
@@ -25,7 +25,7 @@ import { removeFromCart } from '../actions/shop.js';
 import { cartItemsSelector, cartTotalSelector } from '../reducers/shop.js';
 
 // These are the shared styles needed by this element.
-import { ButtonSharedStyles } from './button-shared-styles.js';
+import { ButtonSharedStyles } from './styles/button-shared-styles.js';
 
 class ShopCart extends connect(store)(LitElement) {
   render() {
