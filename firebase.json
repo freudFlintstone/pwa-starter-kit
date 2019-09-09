@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "cw-pwa-test",
     "public": "build",
     "ignore": [
       "firebase.json",
