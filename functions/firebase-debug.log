@@ -1,0 +1,13 @@
+[debug] [2019-08-02T20:42:04.873Z] ----------------------------------------------------------------------
+[debug] [2019-08-02T20:42:04.875Z] Command:       /Users/raphael/.nvm/versions/node/v11.4.0/bin/node /Users/raphael/.nvm/versions/node/v11.4.0/bin/firebase deploy --only hosting:cw-pwa-test
+[debug] [2019-08-02T20:42:04.876Z] CLI Version:   7.0.2
+[debug] [2019-08-02T20:42:04.876Z] Platform:      darwin
+[debug] [2019-08-02T20:42:04.876Z] Node Version:  v11.4.0
+[debug] [2019-08-02T20:42:04.876Z] Time:          Fri Aug 02 2019 17:42:04 GMT-0300 (Brasilia Standard Time)
+[debug] [2019-08-02T20:42:04.876Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-02T20:42:04.886Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-02T20:42:04.886Z] > authorizing via signed-in user
+[debug] [2019-08-02T20:42:04.886Z] [iam] checking project cwa-demo for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-08-02T20:42:04.888Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cwa-demo:testIamPermissions  
+
